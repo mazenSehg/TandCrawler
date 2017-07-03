@@ -1,29 +1,20 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Web crawler which crawls a given URL and extracts all pages which are marked with 'terms and conditions', 'privacy', 'legal'
+* Creates a folder of the given website and stores each page data into a separate .txt file
+
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Load up the files on a web server
+* Ensure that the server allows for mkdir function
+* PHP 6.2 + required (still works with older but haven't really tested)
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+### Notes ###
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Right now this only works when a URL in manually entered into text field. 
+* Will work on automatically finding sites and automate the process
